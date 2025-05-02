@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div id="bookCountUI">
+        <h1 id="h1">Book Library</h1>
+    
+        <p id="p1">How many books?</p>
+        <input type="number" id="books" placeholder="Enter books number:">
+        <div id="booksErrorMsg" style="color: red;"></div>
+        <button id="ok">Ok</button>
+    </div>
+
+    <form id="form">
+        <label for="book_name">Book's Name </label> <br>
+        <input type="text" id="book_name" placeholder="Enter Book Name" /><br>
+        <div id="bNameErrorMsg" style="color: red;"></div>
+
+        <label for="price"> Price </label> <br>
+        <input type="number" id="price" placeholder="Book Price" /><br>
+        <div id="priceErrorMsg" style="color: red;"></div>
+
+        <label for="AuthName">Author Name </label> <br>
+        <input type="text" id="AuthName" placeholder="Enter Author Name" /><br>
+        <div id="AuthNameErrorMsg" style="color: red;"></div>
+        
+        <label for="email">Author Email </label> <br>
+        <input type="text" id="email" placeholder="Enter Author Email" /><br>
+        <div id="emailErrorMsg" style="color: red;"></div>
+
+        <button id="Add">Add Book</button>
+    </form>
+    <script src="book.js"></script>  
+</body>
+</html>
