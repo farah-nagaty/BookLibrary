@@ -1,4 +1,4 @@
-# BookLibrary
+# Book Library
 This project is a simple web application for managing a book library. It allows users to input the number of books and then add book details such as book name, price, author name, and author email. The application includes basic input validation to ensure data quality, displaying error messages for invalid entries.
 
 Manual Testing Types:
